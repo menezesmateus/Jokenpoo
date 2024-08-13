@@ -1,0 +1,113 @@
+.containerall {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+
+.all {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    border: solid 1px black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.158);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px black;
+}
+
+.tabela{
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 75%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.274);
+}
+
+.tabela > div {
+    margin-left: 15px;
+}
+
+.placar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.placar > div {
+    border: solid 1px black;
+    height: 80%;
+    width: 20%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.589);
+    margin-top: 17px;
+    margin-left: 50px;
+}
+
+.botoes{
+    display: flex;
+}
+
+button{
+    width: fit-content;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.botoes > button:hover{
+    background-color: rgba(72, 255, 102, 0.589);
+}
+
+.options{
+    display: flex;
+    justify-content: space-around;
+}
+
+.competicao{
+    display: flex;   
+    justify-content: space-around; 
+}
+
+.placarText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.iniciar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.final{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;   
+}
